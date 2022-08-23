@@ -9,7 +9,6 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // e.target.reset();
 
     emailjs
       .sendForm(
@@ -27,6 +26,7 @@ const Contact = () => {
           console.log(error.text);
         }
       );
+    e.target.reset();
   };
 
   return (
@@ -53,9 +53,7 @@ const Contact = () => {
               cols="30"
               rows="6"
             ></textarea>
-            <button className="btn" type="submit">
-              Send
-            </button>
+            <button className="btn">Send</button>
             {message && <span>Thanks! will get back to you shortly 😊</span>}
           </form>
         </div>
