@@ -1,0 +1,112 @@
+@import "../../global.scss";
+
+.testemonials {
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  @include mobile {
+    justify-content: space-around;
+  }
+
+  h1 {
+    font-size: 40px;
+    @include mobile {
+      font-size: 20px;
+    }
+  }
+  .container {
+    @include mobile {
+      flex-direction: column;
+      height: 100%;
+    }
+    width: 100%;
+    height: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .card {
+      background-image: url("../../../public/materials/wave-haikei.svg");
+      width: 250px;
+      height: 70%;
+      border-radius: 3px;
+      box-shadow: 0px 0px 15px -8px black;
+      display: flex;
+      flex-direction: column;
+      justify-content: space-around;
+      padding: 20px;
+      transition: all 1s ease;
+      @include mobile {
+        background-image: none;
+        height: 180px;
+        margin: 10px 0;
+        padding: 5px;
+      }
+      i {
+        color: darkblue;
+        font-size: 25px;
+        @include mobile {
+          font-size: 10px;
+        }
+      }
+      &.featured {
+        width: 300px;
+        height: 70%;
+        margin: 0 30px;
+        @include mobile {
+          width: 250px;
+          height: 180px;
+          margin: 1px;
+        }
+      }
+      &:hover {
+        transform: scale(1.1);
+      }
+      .top {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+
+        .user {
+          width: 60px;
+          height: 60px;
+          border-radius: 50%;
+          object-fit: cover;
+          border: 2px solid white;
+          @include mobile {
+            width: 30px;
+            height: 30px;
+          }
+        }
+      }
+      .center {
+        padding: 10px;
+        background-color: rgba(243, 243, 243, 0.5);
+        @include mobile {
+          font-size: 12px;
+          padding: 5px;
+        }
+      }
+      .bottom {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+
+        h3 {
+          margin-bottom: 5px;
+          @include mobile {
+            font-size: 12px;
+          }
+        }
+        h4 {
+          color: rgb(0, 0, 0);
+          @include mobile {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+}

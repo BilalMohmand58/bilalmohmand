@@ -1,0 +1,125 @@
+@import "../../global.scss";
+
+.contact {
+  background-image: url("../../../public/materials/wave-haikei.svg");
+  background-size: cover;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .left {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    @include mobile {
+      flex: 0;
+    }
+    h1 {
+      margin-top: 5px;
+      font-size: 40px;
+      font-weight: bold;
+    }
+    h4 {
+      color: gray;
+    }
+  }
+  .right {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    @include mobile {
+      align-items: center;
+      justify-content: center;
+    }
+    .rightItem {
+      box-shadow: 0px 0px 15px -8px black;
+      padding: 10px 20px 0px 20px;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      border-radius: 5px;
+      background-color: rgba(243, 243, 243, 1);
+      width: 400px;
+      height: 500px;
+      @include mobile {
+        width: 250px;
+        height: 350px;
+        padding: 10px;
+      }
+      h2 {
+        text-align: center;
+        margin-top: 5px;
+        margin-bottom: 10px;
+        @include mobile {
+          font-size: 15px;
+          margin: 5px;
+          margin-top: 0px;
+          margin-bottom: 10px;
+        }
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        input {
+          border-bottom: 1px solid lightgray;
+          border: none;
+          outline: none;
+          width: 300px;
+          padding: 10px 7px;
+          margin: 15px 0;
+          @include mobile {
+            width: 200px;
+            margin: 5px 0;
+          }
+        }
+        textarea {
+          outline: none;
+          border: none;
+          width: 300px;
+          padding: 5px 7px;
+          margin: 20px 0px 40px 0px;
+          @include mobile {
+            width: 200px;
+            margin: 5px;
+          }
+        }
+        .btn {
+          padding: 10px;
+          width: 315px;
+          font-size: 15px;
+          font-weight: bold;
+          text-align: center;
+          cursor: pointer;
+          border-radius: 3px;
+          border: none;
+          color: white;
+          background-color: rgb(0, 0, 0);
+          transition: all 1s ease;
+          @include mobile {
+            width: 215px;
+            margin-top: 15px;
+          }
+          &:focus {
+            outline: none;
+          }
+        }
+        span {
+          margin-top: 20px;
+          color: green;
+          @include mobile {
+            font-size: 10px;
+            margin-top: 5px;
+          }
+        }
+      }
+    }
+  }
+}
