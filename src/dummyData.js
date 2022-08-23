@@ -11,28 +11,18 @@ export const featuredPortfolio = [
     img: "materials/touristoo.png",
     link: "https://touristoo.herokuapp.com/",
   },
-  {
-    id: 3,
-    title: "Project",
-    img: "materials/future.png",
-  },
-  {
-    id: 4,
-    title: "Project",
-    img: "materials/future.png",
-  },
 ];
 
 export const webPortfolio = [
   {
     id: 1,
     title: "Project",
-    img: "materials/future.png",
+    img: "materials/future1.png",
   },
   {
     id: 2,
     title: "Project",
-    img: "materials/future.png",
+    img: "materials/future1.png",
   },
 ];
 
@@ -40,12 +30,12 @@ export const mobilePortfolio = [
   {
     id: 1,
     title: "Project",
-    img: "materials/future.png",
+    img: "materials/future1.png",
   },
   {
     id: 2,
     title: "Project",
-    img: "materials/future.png",
+    img: "materials/future1.png",
   },
 ];
 
@@ -53,11 +43,11 @@ export const designPortfolio = [
   {
     id: 1,
     title: "Project",
-    img: "materials/future.png",
+    img: "materials/future1.png",
   },
   {
     id: 2,
     title: "Project",
-    img: "materials/future.png",
+    img: "materials/future1.png",
   },
 ];
