@@ -1,4 +1,3 @@
-import {} from "@material-ui/icons";
 import React, { useState, useRef } from "react";
 import emailjs from "@emailjs/browser";
 
@@ -10,7 +9,7 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    e.target.reset();
+    // e.target.reset();
 
     emailjs
       .sendForm(
