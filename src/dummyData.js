@@ -18,6 +18,7 @@ export const webPortfolio = [
     id: 1,
     title: "Project",
     img: "materials/future1.png",
+    link: "",
   },
   {
     id: 2,
