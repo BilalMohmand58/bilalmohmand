@@ -36,14 +36,19 @@ const Contact = () => {
         <h1>Let's talk</h1>
         <button class="btn btn-contact">
           <span class="text-muted">
-            <a href="https://www.instagram.com/bil.al_7/?hl=en" target="_blank">
-              <i class="fab fa-instagram fa-2x"></i>
-            </a>
-            <a href="https://twitter.com/BilalMohmand58" target="_blank">
+            <a
+              className="twitter"
+              href="https://twitter.com/BilalMohmand58"
+              target="_blank"
+            >
               <i class="fab fa-twitter fa-2x"></i>
             </a>
 
-            <a href="https://github.com/BilalMohmand58" target="_blank">
+            <a
+              className="github"
+              href="https://github.com/BilalMohmand58"
+              target="_blank"
+            >
               <i class="fab fa-github fa-2x"></i>
             </a>
           </span>
@@ -67,7 +72,7 @@ const Contact = () => {
               cols="30"
               rows="6"
             ></textarea>
-            <button className="btn">Send</button>
+            <button className="form-btn">Send</button>
             {message && <span>Thanks! will get back to you shortly 😊</span>}
           </form>
         </div>
