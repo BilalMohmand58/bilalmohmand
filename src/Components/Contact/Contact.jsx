@@ -34,6 +34,20 @@ const Contact = () => {
       <div className="left">
         <h4>Contact Us</h4>
         <h1>Let's talk</h1>
+        <button class="btn btn-contact">
+          <span class="text-muted">
+            <a href="https://www.instagram.com/bil.al_7/?hl=en" target="_blank">
+              <i class="fab fa-instagram fa-2x"></i>
+            </a>
+            <a href="https://twitter.com/BilalMohmand58" target="_blank">
+              <i class="fab fa-twitter fa-2x"></i>
+            </a>
+
+            <a href="https://github.com/BilalMohmand58" target="_blank">
+              <i class="fab fa-github fa-2x"></i>
+            </a>
+          </span>
+        </button>
       </div>
       <div className="right">
         <div className="rightItem">
