@@ -33,7 +33,7 @@ const Contact = () => {
     <div className="contact" id="contact">
       <div className="left">
         <h4>Contact Us</h4>
-        <h1>Let's talk</h1>
+        <h1>Let's Connect</h1>
         <button class="btn btn-contact">
           <span class="text-muted">
             <a
@@ -64,7 +64,7 @@ const Contact = () => {
             <input type="text" placeholder="Subject" name="user_subject" />
             <input
               type="email"
-              placeholder="example@gmail.com"
+              placeholder="bilalahmadkhan1729@gmail.com"
               name="user_email"
             />
             <textarea
