@@ -18,10 +18,6 @@ const Portfolio = () => {
       title: "Featured",
     },
     {
-      id: "web",
-      title: "Web",
-    },
-    {
       id: "mobile",
       title: "Mobile",
     },
@@ -35,10 +31,6 @@ const Portfolio = () => {
     switch (selected) {
       case "featured":
         setData(featuredPortfolio);
-        break;
-
-      case "web":
-        setData(webPortfolio);
         break;
 
       case "mobile":
@@ -68,7 +60,7 @@ const Portfolio = () => {
       </ul>
       <div className="container">
         {data.map((d) => (
-          <a href={d.link} target="_blank">
+          <a href={d.link} target="_blank" rel="opener noreferrer">
             <div className="item">
               <img src={d.img} alt="" />
               <h3>{d.title}</h3>

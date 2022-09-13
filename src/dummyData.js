@@ -13,20 +13,6 @@ export const featuredPortfolio = [
   },
 ];
 
-export const webPortfolio = [
-  {
-    id: 1,
-    title: "Project",
-    img: "materials/future1.png",
-    link: "",
-  },
-  {
-    id: 2,
-    title: "Project",
-    img: "materials/future1.png",
-  },
-];
-
 export const mobilePortfolio = [
   {
     id: 1,

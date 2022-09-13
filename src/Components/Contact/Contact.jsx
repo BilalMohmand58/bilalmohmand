@@ -40,6 +40,7 @@ const Contact = () => {
               className="twitter"
               href="https://twitter.com/BilalMohmand58"
               target="_blank"
+              rel="opener noreferrer"
             >
               <i class="fab fa-twitter fa-2x"></i>
             </a>
@@ -48,6 +49,7 @@ const Contact = () => {
               className="github"
               href="https://github.com/BilalMohmand58"
               target="_blank"
+              rel="opener noreferrer"
             >
               <i class="fab fa-github fa-2x"></i>
             </a>
