@@ -3,7 +3,6 @@ import PortfolioList from "../PortfolioList/PortfolioList";
 import "./Portfolio.scss";
 import {
   featuredPortfolio,
-  webPortfolio,
   mobilePortfolio,
   designPortfolio,
 } from "../../dummyData";

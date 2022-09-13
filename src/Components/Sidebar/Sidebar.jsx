@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import "./Sidebar.scss";
 const Sidebar = () => {
   const [selected, setSelected] = useState("#intro");
-  const [scroll, setScroll] = useState(false);
   const list = [
     {
       id: "#intro",

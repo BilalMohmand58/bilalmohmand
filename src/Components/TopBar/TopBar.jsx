@@ -1,5 +1,4 @@
 import "./TopBar.scss";
-import { Mail, Home } from "@material-ui/icons";
 
 const TopBar = ({ menuOpen, setMenuOpen }) => {
   return (
