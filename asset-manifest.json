@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/bilalmohmand/static/css/main.1d591e27.css",
-    "main.js": "/bilalmohmand/static/js/main.0705623c.js",
+    "main.css": "/bilalmohmand/static/css/main.6114d39e.css",
+    "main.js": "/bilalmohmand/static/js/main.0f1edcad.js",
     "index.html": "/bilalmohmand/index.html",
     "static/media/wave-haikei.svg": "/bilalmohmand/static/media/wave-haikei.e269fba270ef94a2e031.svg",
-    "main.1d591e27.css.map": "/bilalmohmand/static/css/main.1d591e27.css.map",
-    "main.0705623c.js.map": "/bilalmohmand/static/js/main.0705623c.js.map"
+    "main.6114d39e.css.map": "/bilalmohmand/static/css/main.6114d39e.css.map",
+    "main.0f1edcad.js.map": "/bilalmohmand/static/js/main.0f1edcad.js.map"
   },
   "entrypoints": [
-    "static/css/main.1d591e27.css",
-    "static/js/main.0705623c.js"
+    "static/css/main.6114d39e.css",
+    "static/js/main.0f1edcad.js"
   ]
 }
