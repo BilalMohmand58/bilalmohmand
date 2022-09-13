@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/bilalmohmand/static/css/main.987dca48.css",
+    "main.js": "/bilalmohmand/static/js/main.203e0a6f.js",
+    "index.html": "/bilalmohmand/index.html",
+    "static/media/wave-haikei.svg": "/bilalmohmand/static/media/wave-haikei.e269fba270ef94a2e031.svg",
+    "main.987dca48.css.map": "/bilalmohmand/static/css/main.987dca48.css.map",
+    "main.203e0a6f.js.map": "/bilalmohmand/static/js/main.203e0a6f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.987dca48.css",
+    "static/js/main.203e0a6f.js"
+  ]
+}
